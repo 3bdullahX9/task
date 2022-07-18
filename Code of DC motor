@@ -1,0 +1,12 @@
+int motorcontrol = 8:
+void setup ()
+{
+pinMode (motorcontrol, OUTPUT) ;
+}
+void loop()
+{
+digitalWrite (motorcontrol, HIGH) ;
+delay (5000) ;
+digitalWrite (motorcontrol, LOW) ;
+delay (1000) ;
+}
